@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Sales Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Product Sales Tracker</h1>
+
+    <div class="search-container">
+        <label for="search-product">Search Product:</label>
+        <input type="text" id="search-product" placeholder="Enter product name">
+    </div>
+
+    <div class="date-container">
+        <label for="sale-date">Select Sale Date:</label>
+        <input type="date" id="sale-date">
+    </div>
+
+    <div class="date-container">
+        <label for="sale-date2">Select Next Date:</label>
+        <input type="date" id="sale-date2">
+    </div>
+
+    <table id="product-table">
+        <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>Quantity</th>
+                <th>Sale</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <button id="add-product-button">Add Product</button>
+
+    <button id="send-sales-button">Send Sales to MongoDB</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+}
+
+.search-container {
+    margin-bottom: 10px;
+}
+
+.date-container {
+    margin-bottom: 20px;
+}
+
+#product-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#product-table th,
+#product-table td {
+    padding: 5px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+#add-product-button,
+#send-sales-button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
